@@ -5,10 +5,10 @@ import os
 import signal
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7982475022:AAEQEGAasDWFQ6371BMqVyPpVNqaGoIn9BM')
+bot = telebot.TeleBot('')
 
 # List to store allowed user IDs
-allowed_user_ids = ["916136692"]  # Replace with actual user IDs
+allowed_user_ids = [""]  # Replace with actual user IDs
 
 # Variable to keep track of the current attack process
 current_attack_pid = None
